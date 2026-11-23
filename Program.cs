@@ -9,13 +9,16 @@
 */
 class Program
 {
+    
+
     static void Main(string[] args)
     {
-        Void AfficherBienvenue()
-        {
-
-        }
-
-
+        AfficherBienvenue();
     }
+
+    public static void AfficherBienvenue()
+    {
+        Console.WriteLine("Bienvenue !");
+    }
+
 }
